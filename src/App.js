@@ -1,15 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
-  const title = "Welcome to the new blog.";
-  const likes = 50;
+  const title = "Welcome to my new blog.";
 
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>App component</h1>
-        <h2> React based </h2>
+        <Home />
       </div>
     </div>
   );
