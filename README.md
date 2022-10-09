@@ -1,6 +1,6 @@
 # Dojo-blog
 
-Live preview 🚀 - https://thedojo-blog.netlify.app/
+Live preview 🚀 - https://thereact-blog.netlify.app/
 
 # What is it all about
 
