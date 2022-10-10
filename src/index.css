@@ -58,17 +58,13 @@
 
 .footer {
   /* background-color: rgba(255, 5, 5, 0.033); */
-  font-size: 20px;
-  height: 50px;
+  font-size: 26px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: rgba(225, 48, 48, 0.067);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .footer p {
@@ -78,7 +74,15 @@
 .github {
   width: 40px;
   height: 40px;
+  display: flex;
   border-radius: 100%;
   padding: 10px;
   mix-blend-mode: multiply;
+  transition: transform 0.7s ease-in-out;
 }
+.github:hover {
+  transform: rotate(360deg);
+}
+
+/* PROIECTUL RESPONSIVE */
+/* FIX THE FOOTER, E OUT OF THE FLOW PE ECRANE MICI SI ACOPERA CONTENTUL */
